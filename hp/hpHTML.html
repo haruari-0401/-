@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スーパー山吹パーティー！</title>
+  <meta name="description" content="教室で人間スゴロク！スーパー山吹パーティーの遊び方やルールを紹介します。">
+  <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">⭐ 山吹パーティー</a>
+    <nav>
+      <a href="#about">ゲーム紹介</a>
+      <a href="#rules">ルール</a>
+      <a href="#squares">マスの効果</a>
+      <a href="#mini-game">ミニゲーム</a>
+      <a href="#mas-nap">マス一覧</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">🎉 SCHOOL FESTIVAL 🎉</p>
+        <h1>
+          スーパー山吹<br>パーティー！</h1>
+        <h2 class="hero-subtitle">〜人間スゴロク〜</h2>
+        <p class="hero-description">
+          サイコロを振って、星を集めよう！<br>
+          運と作戦で勝利をつかめ！
+        </p>
+        <a class="main-button" href="#about">遊び方を見る ↓</a>
+      </div>
+
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="big-star">★</div>
+        <div class="dice">🎲</div>
+        <div class="small-star star-one">✦</div>
+        <div class="small-star star-two">★</div>
+        <div class="small-star star-three">✧</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-label">ABOUT THE GAME</p>
+      <h2>どんなゲーム？</h2>
+      <p class="section-intro">
+        サイコロを振って教室のマスを進み、星を集めるゲーム！
+        星をたくさん集められるかは、運次第！？
+      </p>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">🎲</div>
+          <h3>サイコロで進もう！</h3>
+          <p>出た目の数だけ進む！<br>特殊なマスにも注目しよう。</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3>星を集めよう！</h3>
+          <p>星のマスに止まる星をゲット！</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>作戦も大切！</h3>
+          <p>星を奪うマスもあるよ。<br>最後まで油断できない！</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="rules" class="section rules-section">
+      <p class="section-label">HOW TO PLAY</p>
+      <h2>基本ルール</h2>
+
+      <div class="rule-panel">
+        <ol class="rule-list">
+          <li>
+            <div>
+              <h3>4人1グループでスタート！</h3>
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <h3>順番にサイコロを振ろう！</h3>
+              <p>1人ずつサイコロを振ります。4人全員が1回ずつ振ったら1ターン終了です。</p>
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <h3>マスの効果を受けよう！</h3>
+              <p>止まったマスの指示に従って、星をもらったりしよう！ただ、星が減ることあるので注意！</p>
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <h3>全6ターンでチャレンジ！</h3>
+              <p>基本は6ターン。3ターン目と6ターン目の終了後にはミニゲームもあるよ！</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="squares" class="section">
+      <p class="section-label">SQUARE EFFECTS</p>
+      <h2>マスの効果一覧</h2>
+      <p class="section-intro">止まったマスによって、星の数が変わるよ！</p>
+
+      <div class="square-grid">
+        <article class="square-card star-card">
+          <div class="square-icon">⭐</div>
+          <h2 class="square-type">スターマス</h2>
+          <h3>星ゲット！</h3>
+          <p class="effect">星を <strong>+3個</strong></p>
+          <p class="square-detail">うれしいボーナスマス！</p>
+        </article>
+
+        <article class="square-card big-star-card">
+          <div class="square-icon">🌟</div>
+          <h2 class="square-type">大スター<br>マス</h2>
+          <h3>大当たり！</h3>
+          <p class="effect">星を <strong>+5個</strong></p>
+          <p class="square-detail">一気に星を増やそう！</p>
+        </article>
+
+        <article class="square-card penalty-card">
+          <div class="square-icon">💦</div>
+          <h2 class="square-type">ペナルティ<br>マス</h2>
+          <h3>星が減る！</h3>
+          <p class="effect">星を <strong>-1個</strong></p>
+          <p class="square-detail">うっかり止まると大変！</p>
+        </article>
+
+        <article class="square-card big-penalty-card">
+          <div class="square-icon">💥</div>
+          <h2 class="square-type">大ペナルティ<br>マス</h2>
+          <h3>大ピンチ！</h3>
+          <p class="effect">星を <strong>-3個</strong></p>
+          <p class="square-detail">次の幸運に期待しよう！</p>
+        </article>
+
+        <article class="square-card steal-card">
+          <div class="square-icon">🫴</div>
+          <h2 class="square-type">スティール<br>マス</h2>
+          <h3>星を奪え！</h3>
+          <p class="effect">星を <strong>2〜3個</strong></p>
+          <p class="square-detail">同じグループの相手を選ぼう！</p>
+        </article>
+
+        <article class="square-card dice-card">
+          <div class="square-icon">🎲</div>
+          <h2 class="square-type">サイコロ<br>マス</h2>
+          <h3>もう一度！</h3>
+          <p class="square-detail">追加のサイコロで進もう！</p>
+        </article>
+      </div>
+
+      <div class="details-panel">
+        <h3>📌 特殊マスの詳しいルール</h3>
+        <ul>
+          <li><strong>星ゲット：</strong>星のマスは+3個、大当たりマスは+5個。</li>
+          <li><strong>ペナルティ：</strong>星が減るマスでは、星の数がマイナスにならない。0個なら0個のまま。</li>
+          <li><strong>星を奪え：</strong>同じグループから相手を1人選ぶ。サイコロが1〜3なら2個、4〜6なら3個奪う。相手の星が少ない場合は、持っている分だけ奪う。</li>
+          <li><strong>もう一度：</strong>サイコロを振り、出た目の数だけ追加で進む。移動先のマスの効果も受ける。追加移動で再びサイコロのマスに止まった場合も、同じように追加移動する。</li>
+          <li><strong>分岐で逆転：</strong>6マス目で分岐する。ハイリスクハイリターンコースと安定コースに分かれるよ。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="mini-game" class="section mini-section">
+      <p class="section-label">MINI GAME</p>
+      <h2>ミニゲームに挑戦！</h2>
+      <div class="mini-panel">
+        <div class="mini-emoji">🎯</div>
+        <div>
+          <h3>3ターン目・6ターン目の終了後に開催！</h3>
+          <p>みんなでミニゲームに挑戦しよう！射的やボーリングに挑戦！</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mas-sections" id="mas-nap">
+      <div class="mas-section">マスの一覧</div>
+      <div>
+        <h3>スタート</h3>
+        <p class="star-square">1.スターマス</p>
+        <p class="dice-square">2.サイコロマス</p>
+        <p class="star-square">3.スターマス</p>
+        <p class="big-star-square">4.大スターマス</p>
+        <p class="penalty-square">5.ペナルティマス</p>
+        <p class="branch-square">
+          6.分岐マス（ピッタリ止まるとスター＋２とサイコロをもう一度振る）
+        </p>
+
+        <div class="course-heading">
+  <div>ハイリスクハイリターンコース</div>
+  <div>安定コース</div>
+</div>
+
+<div class="course-grid">
+  <p class="big-penalty-square">7.大ペナルティマス</p>
+  <p class="star-square">7.スターマス</p>
+
+  <p class="big-star-square">8.大スターマス</p>
+  <p class="dice-square">8.サイコロマス</p>
+
+  <p class="steal-square">9.スティールマス</p>
+  <p class="penalty-square">9.ペナルティマス</p>
+
+  <p class="big-penalty-square">10.大ペナルティマス</p>
+  <p class="steal-square">10.スティールマス</p>
+
+  <p class="big-star-square">11.大スターマス</p>
+  <p class="star-square">11.スターマス</p>
+
+  <p class="big-penalty-square">12.大ペナルティマス</p>
+  <p class="dice-square">12.サイコロマス</p>
+
+  <p></p>
+  <p class="penalty-square">13.ペナルティマス</p>
+</div>
+        <p class="merge-square">
+          14.合流マス（ピッタリ止まるとスター＋２とサイコロをもう一度振る）
+        </p>
+        <p class="star-square">15.スターマス</p>
+        <p class="steal-square">16.スティールマス</p>
+        <p class="penalty-square">17.ペナルティマス</p>
+        <p class="dice-square">18.サイコロマス</p>
+        <h3>スタートに戻る（周回ボーナスでスター＋２）</h3>
+      </div>
+    </section>
+
+    <section class="section final-section">
+      <div class="final-star">⭐</div>
+      <h2>目指せ！星いっぱい！</h2>
+      <p>運も作戦も楽しみながら、みんなで盛り上がろう！</p>
+      <a class="main-button" href="#">ページのトップへ ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>スーパー山吹パーティー！</p>
+    <p>〜教室で人間スゴロク〜</p>
+    <small>文化祭 展示企画</small>
+  </footer>
+</body>
+</html>
